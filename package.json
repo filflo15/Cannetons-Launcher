@@ -4,8 +4,8 @@
     "version": "1.0.5",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://launcher.selvania.fr",
+    "author": "Filflo15",
+    "url": "https://lescannetons.websr.fr/launcher",
     "engines": {
         "node": "16.x.x"
     },
