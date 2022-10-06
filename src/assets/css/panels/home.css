@@ -64,11 +64,18 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: #00bd7a;
+    background: #3b013d00;
     font: normal normal bold 20px/25px Poppins;
-    color: #121212;
+    color: #3b013d00;
     margin: 15px 0;
-    box-shadow: 0 0 5px #00bd7a;
+    box-shadow: 0 0 5px #8a046200;
+}
+
+.logoplay {
+    top: 10px;
+    width: 160px;
+    height: 37px;
+    border-radius: 20px;
 }
 
 .download-content {
@@ -98,7 +105,7 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #00bd7a;
+    background-color: #db3ae0;
     border-radius: 10px;
 }
 
@@ -226,11 +233,33 @@
     position: relative;
     width: 100%;
     height: 75px;
-    background-color: #292929;
+    background-color: #740aca80;
     border-radius: 10px;
     transition: opacity 1s;
     opacity: .4;
 }
+
+.regle {
+    position: absolute;
+    background: #740aca80;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    color: rgb(255, 255, 255);
+    margin-top: 8%;
+    margin-left: 69%;
+    opacity: 70%;
+}
+
+.info {
+    width: 100%;
+
+  }
+
+  .regletext {
+    color: azure;
+}
+
 
 .server:hover {
     transition: opacity 1s;
@@ -265,7 +294,7 @@
 }
 
 .green {
-    color: #1AC707;
+    color: #db3ae0;
 }
 
 .red {
@@ -301,9 +330,9 @@
     width: 10px;
     height: 10px;
     border-radius: 10px;
-    border: 2px solid #1A1A1A;
+    border: 2px solid #db3ae0;
     transition: all .2s;
-    background-color: #1AC707;
+    background-color: #db3ae0;
 }
 
 .online.off {
